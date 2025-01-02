@@ -152,11 +152,11 @@
     let letterIndex = 0;
     let fireworksLaunched = false;
 
-    function updateCountdown() {
-    const now = new Date();
-    const nextYear = now.getFullYear();
+    //function updateCountdown() {
+    //const now = new Date();
+    //const nextYear = now.getFullYear();
     //const newYear = new Date(`, ${nextYear} 00:00:00`);  // Midnight of Dec 31
-    const diff = newYear - now;
+    //const diff = newYear - now;
 
     if (diff <= 0 && !fireworksLaunched) {
         countdownElement.style.display = "none";  // Hide countdown
