@@ -155,7 +155,7 @@
     function updateCountdown() {
     const now = new Date();
     const nextYear = now.getFullYear();
-    const newYear = new Date(`December 31, ${nextYear} 00:00:00`);  // Midnight of Dec 31
+    const newYear = new Date(`, ${nextYear} 00:00:00`);  // Midnight of Dec 31
     const diff = newYear - now;
 
     if (diff <= 0 && !fireworksLaunched) {
