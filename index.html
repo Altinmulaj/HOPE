@@ -158,16 +158,16 @@
     //const newYear = new Date(`, ${nextYear} 00:00:00`);  // Midnight of Dec 31
     //const diff = newYear - now;
 
-    if (diff <= 0 && !fireworksLaunched) {
-        countdownElement.style.display = "none";  // Hide countdown
-        newYearMessage.style.display = "block";   // Show message
+    //if (diff <= 0 && !fireworksLaunched) {
+      //  countdownElement.style.display = "none";  // Hide countdown
+      //  newYearMessage.style.display = "block";   // Show message
         
-        launchFireworks();                        // Trigger fireworks
+      //  launchFireworks();                        // Trigger fireworks
         
-        fireworksLaunched = true;                 // Prevent launching more fireworks
+      //  fireworksLaunched = true;                 // Prevent launching more fireworks
         
-        return;
-    }
+      //  return;
+    //}
 
 
     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
